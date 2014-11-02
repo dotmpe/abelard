@@ -1,12 +1,26 @@
 {
+    "name": "dotmpe/abelard",
+    "description": "PHP cloudApp",
+    "version": "0.0.1",
     "minimum-stability": "dev",
     "require": {
         "silex/silex": "*",
         "twig/twig": "*",
         "mheap/Silex-Assetic": "*",
-        "natxet/CssMin": "*"
+        "natxet/CssMin": "*",
+        "MSOpenTech/odataphpprod": "dev-master",
+        "gizur/odatamysqlphpconnect": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dotmpe/odataphpprod"
+        }
+    ],
     "scripts": {
-        "srctree": "tree oresources web"
+        "srctree": "tree oresources web",
+        "check": [ "composer validate" ],
+        "up": [ "composer update", "composer install" ],
+        "deploy": [ "cctrl abelard push", "cctrl abelard deploy" ]
     }
 }
