@@ -1,9 +1,12 @@
 {
     "minimum-stability": "dev",
     "require": {
-		"silex/silex": "*",
-		"twig/twig": "*",
-    	"mheap/Silex-Assetic": "*",
-    	"natxet/CssMin": "*"
+        "silex/silex": "*",
+        "twig/twig": "*",
+        "mheap/Silex-Assetic": "*",
+        "natxet/CssMin": "*"
+    },
+    "scripts": {
+        "srctree": "tree oresources web"
     }
 }
