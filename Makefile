@@ -3,7 +3,7 @@ default:
 
 help:
 
-up:
+up: install
 install:
 	composer run up
 

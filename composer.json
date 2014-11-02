@@ -9,12 +9,16 @@
         "mheap/Silex-Assetic": "*",
         "natxet/CssMin": "*",
         "MSOpenTech/odataphpprod": "dev-master",
-        "gizur/odatamysqlphpconnect": "dev-master"
+        "dotmpe/odatamysqlphpconnect": "dev-master"
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/dotmpe/odataphpprod"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dotmpe/odatamysqlphpconnect"
         }
     ],
     "scripts": {
